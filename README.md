@@ -4,7 +4,7 @@
   <img src="img\logo.png" alt="Logo" width="80" height="80">
 </p> -->
 
-## RaspberryPi_WifiGPIOControl
+## RaspberryPi_WifiRelayControl
 
 [![HitCount](http://hits.dwyl.com/VRB95/VRB95/RaspberryPi_WifiRelayControl.svg)](http://hits.dwyl.com/VRB95/VRB95/RaspberryPi_WifiRelayControl)
  [![License: MIT](https://img.shields.io/github/license/VRB95/RaspberryPi_WifiRelayControl?color=blue&style=flat-square)](https://opensource.org/licenses/MIT)
@@ -98,5 +98,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Vesa Bogdan - vesabogdan95@gmail.com
 
-Project Link: [https://github.com/VRB95/RaspberryPi_WifiGPIOControl](https://github.com/VRB95/RaspberryPi_WifiGPIOControl)
+Project Link: [https://github.com/VRB95/RaspberryPi_WifiRelayControl](https://github.com/VRB95/RaspberryPi_WifiRelayControl)
 
