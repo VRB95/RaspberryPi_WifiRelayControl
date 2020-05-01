@@ -1,0 +1,125 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.first_container{
+  position: relative;
+  top: 140px;
+}
+.second_container{
+  position:relative;
+  top: 170px;
+}
+.btn1,.btn2{
+  border: 1px solid #ff6347;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.2s;
+  position: relative;
+  overflow: hidden;
+}
+.btn3,.btn4{
+  border: 1px solid #ff6347;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.2s;
+  position: relative;
+  overflow: hidden;
+}
+.btn1,.btn2{
+  color: #ff6347;
+}
+.btn3,.btn4{
+  color: #fff;
+}
+.btn1:hover,.btn2:hover{
+  color: #fff;
+}
+.btn3:hover,.btn4:hover{
+  color: #ff6347;
+}
+.btn1::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #ff6347;
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn2::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #ff6347;
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn3::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #ff6347;
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn4::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #ff6347;
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn1::before,.btn3::before{
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.btn2::before,.btn4::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+.btn3::before,.btn4::before{
+  height: 180%;
+}
+.btn1:hover::before,.btn2:hover::before{
+  height: 180%;
+}
+.btn3:hover::before,.btn4:hover::before{
+  height: 0%;
+}
+.glow {
+  position: relative;
+  top: 40px;
+  font-size: 40px;
+  font-family: cursive;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff6347, 0 0 40px #ff6347, 0 0 50px #ff6347, 0 0 60px #ff6347, 0 0 70px #ff6347;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff6347, 0 0 40px #ff6347, 0 0 50px #ff6347, 0 0 60px #ff6347, 0 0 70px #ff6347, 0 0 80px #ff6347;
+  }
+}
